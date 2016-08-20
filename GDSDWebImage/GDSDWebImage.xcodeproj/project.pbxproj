@@ -13,6 +13,7 @@
 		600FDB041D6857CA0067FA6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600FDB021D6857CA0067FA6F /* LaunchScreen.storyboard */; };
 		600FDB151D6876940067FA6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600FDB101D6876940067FA6F /* ViewController.m */; };
 		600FDB161D6876940067FA6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 600FDB141D6876940067FA6F /* AppDelegate.m */; };
+		600FDB191D6879250067FA6F /* GDDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 600FDB181D6879250067FA6F /* GDDownloadOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		600FDB101D6876940067FA6F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		600FDB131D6876940067FA6F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		600FDB141D6876940067FA6F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		600FDB171D6879250067FA6F /* GDDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDDownloadOperation.h; sourceTree = "<group>"; };
+		600FDB181D6879250067FA6F /* GDDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDDownloadOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 		600FDB111D6876940067FA6F /* MYWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				600FDB171D6879250067FA6F /* GDDownloadOperation.h */,
+				600FDB181D6879250067FA6F /* GDDownloadOperation.m */,
 			);
 			path = MYWebImage;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 		600FDAE91D6857CA0067FA6F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GD;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = geduo;
 				TargetAttributes = {
@@ -181,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				600FDB191D6879250067FA6F /* GDDownloadOperation.m in Sources */,
 				600FDB151D6876940067FA6F /* ViewController.m in Sources */,
 				600FDAF61D6857CA0067FA6F /* main.m in Sources */,
 				600FDB161D6876940067FA6F /* AppDelegate.m in Sources */,
