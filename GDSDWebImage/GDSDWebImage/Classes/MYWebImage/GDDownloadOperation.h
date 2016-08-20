@@ -13,7 +13,9 @@
 
 @property (nonatomic,copy) NSString *imgURL;
 
-
 @property (nonatomic,copy) void(^finishedBlock)(UIImage *image);
+
+
+
 
 @end
